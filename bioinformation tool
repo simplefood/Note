@@ -1,0 +1,10 @@
+bwa
+smatools
+picard
+GATK
+bedtools
+bcftools
+vcftools
+FastQC
+MultiQC
+VEP
