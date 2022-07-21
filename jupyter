@@ -1,0 +1,16 @@
+
+remove kernel
+
+jupyter kernelspec list 
+jupyter kernelspec uninstall unwanted-kernel
+
+
+add R kernel
+
+conda env list
+conda-env remove -n R4
+conda create -n R4 python=3 ipykernel
+conda activate R4
+conda install -c conda-forge r-base=4.2.1
+install.packages('IRkernel')
+IRkernel::installspec(name = 'ir33', displayname = 'R 3.3')
