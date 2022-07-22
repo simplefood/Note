@@ -8,3 +8,4 @@ vcftools
 FastQC
 MultiQC
 VEP
+HTSeq 2.0.2
