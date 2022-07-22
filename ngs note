@@ -1,0 +1,1 @@
+samtools flagstat Oct4.bam
