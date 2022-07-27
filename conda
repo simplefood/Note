@@ -1,0 +1,6 @@
+conda create -n bioinformatics biopython biopython=1.70
+conda activate bioinformatics
+conda config --add channels bioconda
+conda config --add channels conda-forge
+
+conda install scipy matplotlib jupyter-notebook pip pandas cython numba scikit-learn seaborn pysam pyvcf simuPOP dendropy rpy2
