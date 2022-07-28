@@ -14,3 +14,8 @@ conda activate R4
 conda install -c conda-forge r-base=4.2.1
 install.packages('IRkernel')
 IRkernel::installspec(name = 'ir33', displayname = 'R 3.3')
+
+
+add python kernel
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=bioinfor
